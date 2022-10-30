@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="register">
+            <h2>Register Here</h2>
+            <form name="register" id="register" method="post" action="contact.php">
+                <label for="">First Name: </label>
+                <br><input type="text" id="fname" name="fname" placeholder="Enter your first name here"
+                    required><br><br>
+                <label for="">Last Name: </label>
+                <br><input type="text" id="lname" name="lname" placeholder="Enter your last name here" required><br><br>
+                <label for="">Date of Birth: </label>
+                <br><input type="date" id="dob" name="dob" placeholder="" required><br><br>
+                <label for="">Gender:</label><br><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="">Female</label>
+                <input type="radio" id="other" name="gender" value="others">
+                <label for="">Other</label><br><br>
+                <label for=" ">Email: </label>
+                <br><input type="email" id="email" name="email" placeholder="Enter your email here" required><br><br>
+                <label for=" ">Mobile Number: </label>
+                <br><input type="text " id="mon" name="mon" placeholder="+880 1423-456789 "><br><br>
+
+
+                <label for=" ">Known Language: </label><br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="c" name="kl" value="c"> &nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="c"> c</label><br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="c++" name="kl" value="c++"> &nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="c++"> c++</label><br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="java" name="kl" value="java"> &nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="java"> java</label><br> &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="python" name="kl" value="python"> &nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="python"> python</label><br><br>
+                
+                <input type="submit" id="submit" name="submit" value="Submit">
+        </div>
+        <!--register end-->
+    </div>
+    <!--main end-->
+</body>
+
+</html>

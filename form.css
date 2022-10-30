@@ -1,0 +1,128 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background-color: aqua;
+                background-repeat: no-repeat;
+                background-size: 100% 200%;
+            }
+
+            .main {
+                width: 400px;
+                margin: 100px auto 0px auto;
+            }
+
+            .register h2 {
+                text-align: center;
+                padding-top: 20px;
+                font-family: sans-serif;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+
+            .register {
+                background-color: beige;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+                border: 2px red solid;
+                box-shadow: 2px 2px 15px;
+            }
+
+            form#register {
+                margin: 30px;
+            }
+
+            .register label {
+                font-family: sans-serif;
+                font-size: 20px;
+                color: black;
+            }
+
+            input#fname {
+                width: 100%;
+                margin-top: 10px;
+                border: 1px solid;
+                outline: 0px;
+                padding: 7px;
+                border-radius: 10px;
+                font-size: 15px;
+                font-style: italic;
+                background-color: azure;
+                /*box-shadow: inset red 1px 1px px;*/
+            }
+
+            input#lname {
+                width: 100%;
+                margin-top: 10px;
+                border: 1px solid;
+                outline: 0px;
+                padding: 7px;
+                border-radius: 10px;
+                font-size: 15px;
+                font-style: italic;
+                background-color: azure;
+                /*box-shadow: inset red 1px 1px px;*/
+            }
+
+            input#dob {
+                width: 100%;
+                margin-top: 10px;
+                border: 1px solid;
+                outline: 0px;
+                padding: 7px;
+                border-radius: 10px;
+                font-size: 15px;
+                font-style: italic;
+                background-color: azure;
+                /*box-shadow: inset red 1px 1px px;*/
+            }
+
+            input#mon {
+                width: 100%;
+                margin-top: 10px;
+                border: 1px solid;
+                outline: 0px;
+                padding: 7px;
+                border-radius: 10px;
+                font-size: 15px;
+                font-style: italic;
+                background-color: azure;
+                /*box-shadow: inset red 1px 1px px;*/
+            }
+
+            input#email {
+                width: 100%;
+                margin-top: 10px;
+                border: 1px solid;
+                outline: 0px;
+                padding: 7px;
+                border-radius: 10px;
+                font-size: 15px;
+                font-style: italic;
+                background-color: azure;
+                /*box-shadow: inset red 1px 1px px;*/
+            }
+
+            input#submit {
+                width: 100px;
+                margin-top: 10px;
+                padding: 7px;
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                border: none;
+                border-radius: 5px;
+                /*box-shadow: inset red 1px 1px px;*/
+                background-color: aqua;
+                color: black;
+                font-weight: bold;
+                border: 2px white solid;
+
+
+            }
+
+            .checkbox:checked:before {
+                background-color: green;
+            }
